@@ -1,16 +1,9 @@
 export default {
   data() {
     return {
-      search: ""
     }
   },
-  components: {
-
-  },
-  created() {
-
-  },
-  methods:{
-    
-  }
+  components: {},
+  created() {},
+  methods:{}
 };

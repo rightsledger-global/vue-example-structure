@@ -1,9 +1,7 @@
 <template>
   <div>
     <!-- not yet login -->
-    <div v-if="isLogging">
-      <router-view/>
-    </div>
+      <router-view v-if="isLogging"/>
     <!-- logged in -->
     <div v-else>
       <Topnav/>
@@ -37,3 +35,14 @@ export default {
   }
 }
 </script>
+<style>
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300 !important;
+  margin:0;
+  padding: 0;
+}
+</style>

@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Home from '../../views/home/index'
-import Auth from '../../views/auth/index'
+import Home from '../views/home/index'
+import Auth from '../views/auth/index'
 
 const isLoggedIn = (to, from, next) => {
 	if (!Vue.$cookies.get('user')) {

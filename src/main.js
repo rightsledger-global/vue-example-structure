@@ -3,8 +3,8 @@ import Vuex from 'vuex'
 import App from './App.vue'
 import axios from 'axios'
 import VueCookies from 'vue-cookies'
-import VueRouter from './utils/router'
-import router from './utils/router/index.js'
+import VueRouter from './router'
+import router from './router/index'
 import _ from 'lodash'
 
 Vue.use(Vuex)
